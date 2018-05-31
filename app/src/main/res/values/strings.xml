@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Dispatcher</string>
+    <string name="sign_up_title">Inicia Sesión</string>
+    <string name="email">Correo electrónico</string>
+    <string name="dni">Escribe el Nº Carné</string>
+    <string name="password">Contraseña</string>
+    <string name="sign_in">Ingresar</string>
+    <string name="error_invalid_credentials">El usuario o la contraseña ingresada no son válidos. Verifique y vuelva a intentar</string>
+    <string name="mobile_session">Ya tiene una sesión abierta en otro dispositivo.\n<font fgcolor="#000000"><b>¿Desea cerrar la otra sesión?</b></font></string>
+    <string name="mobile_session_yes">Si</string>
+    <string name="mobile_session_not">No</string>
+    <string name="empty" translatable="false" />
+    <string name="cannot_display_session">Se ha iniciado sesión en otro equipo</string>
+    <string name="scan_carnet">ESCANEAR CARNET</string>
+    <string name="label_confirmation">EL PEDIDO FUE ENTREGADO \n CORRECTAMENTE A: </string>
+    <string name="error_invalid_email">El email ingresado no es válido</string>
+    <string name="error_password_length">La contraseña debe contener al menos %d caracteres</string>
+    <string name="version_app">Versión %s</string>
+    <string name="alias"><![CDATA[<font color="#212121"><b>Alias : </b></font><font color="#757575">%s</font>]]></string>
+    <string name="nombres"><![CDATA[<font color="#212121"><b>Nombres : </b></font><font color="#757575">%s</font>]]></string>
+    <string name="movil"><![CDATA[<font color="#212121"><b>Móvil : </b></font><font color="#757575">%s</font>]]></string>
+    <string name="log_out">Cerrar Sesión</string>
+    <string name="home">Inicio</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="get_profits_error_message">Ha ocurrido un error al intentar obtener sus datos</string>
+    <string name="dashboard_dispatcher">DESPACHAR</string>
+    <string name="dashboard_liqudidate">LIQUIDAR</string>
+    <string name="message_not_order">No hay pedidos \n asignados al motorizado</string>
+    <string name="dashboard_liquidate">Liquidar</string>
+    <string name="cancel">CANCELAR</string>
+    <string name="accept">ACEPTAR</string>
+    <string name="message_not_found_dni"><![CDATA[<font color="#222222">El número de DNI %s <br></font><font color="#000000"><b>¡No está registrado!</b></font>]]></string>
+    <string name="go_start">IR AL INICIO</string>
+    <string name="name_motorized">Pedidos para: \n %s</string>
+    <string name="start_scan">EMPEZAR A ESCANEAR</string>
+    <string name="cancel_scan">CANCELAR  PROCESO DE ESCANEO</string>
+    <string name="command"><![CDATA[<font color="#222222">Comanda Nº </font><font color="#000000"><b>%s</b></font>]]></string>
+    <string name="shelf">Nº %s</string>
+    <string name="scan_code_bar">ESCANEAR CÓDIGO DE BARRAS</string>
+</resources>

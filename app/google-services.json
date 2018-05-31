@@ -1,0 +1,368 @@
+{
+  "project_info": {
+    "project_number": "832257949526",
+    "firebase_url": "https://inkafarma-ci.firebaseio.com",
+    "project_id": "inkafarma-ci",
+    "storage_bucket": "inkafarma-ci.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:832257949526:android:26f45178c34e1e62",
+        "android_client_info": {
+          "package_name": "com.globant.inkafarma"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "832257949526-rcvgkk76toqd75g2g2f6364lt9ur6bu8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.globant.inkafarma",
+            "certificate_hash": "627ab0f08547544c5420f45096b960d22a19840b"
+          }
+        },
+        {
+          "client_id": "832257949526-5fvb0hogltmaffrcr41g4p528oejlhaf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7unb5A39_hrQ0EpCcYjabPCq-LbKwGVo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "832257949526-5fvb0hogltmaffrcr41g4p528oejlhaf.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "832257949526-mfd8b7unbjhrfi10ivoogql3jcgl790v.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.inkafarma.inkamoto"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:832257949526:android:ea425909ad873100",
+        "android_client_info": {
+          "package_name": "com.inkafarma.dispatcher"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "832257949526-20gnspqrfae1rfbbtc3msenl13e9fe7u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.inkafarma.dispatcher",
+            "certificate_hash": "7e0a2e5582f6e4bbb8c54f02be52b16599a522e7"
+          }
+        },
+        {
+          "client_id": "832257949526-5fvb0hogltmaffrcr41g4p528oejlhaf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7unb5A39_hrQ0EpCcYjabPCq-LbKwGVo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "832257949526-5fvb0hogltmaffrcr41g4p528oejlhaf.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "832257949526-mfd8b7unbjhrfi10ivoogql3jcgl790v.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.inkafarma.inkamoto"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:832257949526:android:a151cd8539fedaff",
+        "android_client_info": {
+          "package_name": "com.inkafarma.inkamoto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "832257949526-lkjpdbed3h9kblnutb3uvmdtmonufcp3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.inkafarma.inkamoto",
+            "certificate_hash": "6508a243e58852f88cc79c9cdcb684bfad4b3b7f"
+          }
+        },
+        {
+          "client_id": "832257949526-5fvb0hogltmaffrcr41g4p528oejlhaf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7unb5A39_hrQ0EpCcYjabPCq-LbKwGVo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "832257949526-5fvb0hogltmaffrcr41g4p528oejlhaf.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "832257949526-mfd8b7unbjhrfi10ivoogql3jcgl790v.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.inkafarma.inkamoto"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:832257949526:android:aab05bbc8970c304",
+        "android_client_info": {
+          "package_name": "com.inkafarma.inkapicker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "832257949526-27hvmiul7cc12cjcv0pnh9fqa6pb222k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.inkafarma.inkapicker",
+            "certificate_hash": "97e7fbb0b8644405687b71e9a77535e0df59d996"
+          }
+        },
+        {
+          "client_id": "832257949526-5fvb0hogltmaffrcr41g4p528oejlhaf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7unb5A39_hrQ0EpCcYjabPCq-LbKwGVo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "832257949526-5fvb0hogltmaffrcr41g4p528oejlhaf.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "832257949526-mfd8b7unbjhrfi10ivoogql3jcgl790v.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.inkafarma.inkamoto"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:832257949526:android:3f89724672751ce3",
+        "android_client_info": {
+          "package_name": "com.inkafarma.inkatracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "832257949526-h5hd6tuvajft890nkv2tfij6a74j8f6c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.inkafarma.inkatracker",
+            "certificate_hash": "01bd67cb1bc496a2a7ad422eedb0419ba32bcd32"
+          }
+        },
+        {
+          "client_id": "832257949526-5fvb0hogltmaffrcr41g4p528oejlhaf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7unb5A39_hrQ0EpCcYjabPCq-LbKwGVo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "832257949526-5fvb0hogltmaffrcr41g4p528oejlhaf.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "832257949526-mfd8b7unbjhrfi10ivoogql3jcgl790v.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.inkafarma.inkamoto"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:832257949526:android:b8f1db679c2c9107",
+        "android_client_info": {
+          "package_name": "com.inkafarma.inpicker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "832257949526-elnhbb318lud7n1kejbkmnofbkvjk5d1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.inkafarma.inpicker",
+            "certificate_hash": "42c09299dd1c732fc84c8592c77d0a4ddd5ed1b3"
+          }
+        },
+        {
+          "client_id": "832257949526-5fvb0hogltmaffrcr41g4p528oejlhaf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7unb5A39_hrQ0EpCcYjabPCq-LbKwGVo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "832257949526-5fvb0hogltmaffrcr41g4p528oejlhaf.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "832257949526-mfd8b7unbjhrfi10ivoogql3jcgl790v.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.inkafarma.inkamoto"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:832257949526:android:75585ac82c691ee1",
+        "android_client_info": {
+          "package_name": "com.inkafarma.insupply"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "832257949526-8a4o3gl2lj3ddmq7hq4pejk5uhcklicc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.inkafarma.insupply",
+            "certificate_hash": "fcb20c365fb640d6c99288ecec4beae04109e408"
+          }
+        },
+        {
+          "client_id": "832257949526-5fvb0hogltmaffrcr41g4p528oejlhaf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7unb5A39_hrQ0EpCcYjabPCq-LbKwGVo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "832257949526-5fvb0hogltmaffrcr41g4p528oejlhaf.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "832257949526-mfd8b7unbjhrfi10ivoogql3jcgl790v.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.inkafarma.inkamoto"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

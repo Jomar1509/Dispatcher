@@ -1,0 +1,70 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ToolbarTheme">
+        <item name="colorControlNormal">@color/white</item>
+        <item name="titleTextColor">@android:color/white</item>
+    </style>
+
+    <style name="ErrorAppearanceText" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/red</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="FloatingHintText" parent="TextAppearance.Design.Hint">
+        <item name="android:textSize">11sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/grey</item>
+    </style>
+
+    <style name="LoginEditText">
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="android:textColor">@color/dark_grey</item>
+        <item name="android:textColorHint">@color/login_text_field_color</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="DniEditText">
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="android:textColor">@color/dni_text_field_color</item>
+        <item name="android:textColorHint">@color/dni_text_field_color</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="roboto_medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="roboto_regular">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="ToolbarDashboardTheme">
+        <item name="colorControlNormal">@android:color/black</item>
+    </style>
+
+    <style name="roboto_bold">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/order_container"
+    android:layout_width="match_parent"
+    android:layout_height="85dp"
+    android:layout_marginBottom="2dp"
+    android:orientation="vertical"
+    android:paddingTop="26dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:layout_marginLeft="0.7dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:paddingRight="20dp">
+
+            <LinearLayout
+                android:id="@+id/ln_ordering"
+                android:layout_width="46dp"
+                android:layout_height="85dp"
+                android:background="@drawable/shape_corner_holder_blue"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/textView_ordering"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="10"
+                    android:textColor="@color/white"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/container"
+                android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:layout_weight="1"
+                android:gravity="center|left"
+                android:orientation="vertical"
+                android:paddingTop="13dp"
+                android:paddingBottom="11dp"
+                android:paddingLeft="14dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|left"
+                    android:paddingBottom="5dp"
+                    android:orientation="vertical">
+
+                    <com.inkafarma.dispatcher.view.widget.CustomTextView
+                        android:id="@+id/textView_number_command"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#222222"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        tools:text="Comanda Nº9346"
+                        style="roboto_medium" />
+
+
+                </LinearLayout>
+
+                <com.inkafarma.dispatcher.view.widget.CustomTextView
+                    android:id="@+id/textView_cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:background="@drawable/shape_corner_cancel"
+                    android:gravity="center"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="14dp"
+                    android:textColor="@color/light_grey"
+                    android:textSize="16sp"
+                    android:text="Cancelar pedido"
+                    style="@style/roboto_bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="40dp"
+                android:layout_height="85dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/btn_go_detail"
+                    android:layout_width="33dp"
+                    android:layout_height="33dp"
+                    android:visibility="gone"
+                    android:src="@drawable/group_2_copy" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>

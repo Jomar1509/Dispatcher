@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/title_motorized"
+            style="@style/roboto_bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_confirmation"
+            android:textAlignment="center"
+            android:textColor="@color/text_gray_confirmation"
+            android:layout_alignParentTop="true"
+            android:paddingTop="107dp"
+            android:paddingBottom="54dp"
+            android:textSize="17sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title_motorized"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/image_motorized"
+            android:src="@drawable/motorizado_profile_image"/>
+
+        <TextView
+            android:id="@+id/name_motorized"
+            style="@style/roboto_bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rodrigo Fernandez"
+            android:textAlignment="center"
+            android:textColor="@color/dark_text"
+            android:paddingTop="8dp"
+            android:layout_below="@+id/image_motorized"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/scan_label_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:clickable="true"
+            android:minHeight="60dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/scan_capture_button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="bottom"
+                android:layout_weight="1"
+                android:background="@drawable/button_green_background"
+                android:clickable="true"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/go_start_button"
+                    style="@style/roboto_bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/go_start"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="17sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <include
+        android:id="@+id/progress_overlay"
+        android:visibility="gone"
+        layout="@layout/progress_overlay" />
+
+</RelativeLayout>

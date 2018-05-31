@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/order_container"
+    android:layout_width="match_parent"
+    android:layout_height="97dp"
+    android:layout_marginBottom="2dp"
+    android:orientation="vertical"
+    android:paddingTop="26dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="97dp"
+        android:layout_marginLeft="0.7dp"
+        android:gravity="bottom">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="97dp"
+            android:paddingRight="20dp">
+
+            <LinearLayout
+                android:id="@+id/ln_ordering"
+                android:layout_width="46dp"
+                android:layout_height="97dp"
+                android:background="@drawable/shape_corner_holder_green"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/textView_ordering"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="10"
+                    android:textColor="@color/white"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/container"
+                android:layout_width="match_parent"
+                android:layout_height="97dp"
+                android:layout_weight="1"
+                android:gravity="center|left"
+                android:orientation="vertical"
+                android:paddingTop="23dp"
+                android:paddingBottom="23dp"
+                android:paddingLeft="14dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|left"
+                    android:orientation="vertical">
+
+                    <com.inkafarma.dispatcher.view.widget.CustomTextView
+                        android:id="@+id/textView_number_command"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#222222"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        tools:text="Comanda Nº9346"
+                        style="roboto_medium" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <com.inkafarma.dispatcher.view.widget.CustomTextView
+                            android:id="@+id/lbl_shelf"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="10dp"
+                            android:text="Estante:"
+                            android:textColor="#777777"
+                            android:textSize="16sp"
+                            style="@style/roboto_bold" />
+
+                        <com.inkafarma.dispatcher.view.widget.CustomTextView
+                            android:id="@+id/textView_number_shelf"
+                            android:layout_width="wrap_content"
+                            android:layout_height="25dp"
+                            android:background="@drawable/shape_corner_shelf"
+                            android:gravity="center"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:textColor="@color/white"
+                            android:textSize="18sp"
+                            tools:text="Nº A7"
+                            style="@style/roboto_bold" />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="40dp"
+                android:layout_height="97dp"
+
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/btn_go_detail"
+                    android:layout_width="33dp"
+                    android:layout_height="33dp"
+                    android:visibility="gone"
+                    android:src="@drawable/group" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>

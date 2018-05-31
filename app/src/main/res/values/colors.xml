@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffbe76</color>
+    <color name="colorPrimaryDark">#f1a856</color>
+    <color name="colorAccent">#000000</color>
+
+    <color name="colorPrimaryLiquidate">#5bc0de</color>
+    <color name="colorPrimaryDarkLiquidate">#31acd0</color>
+
+    <color name="splash_background_green">#00dc6a</color>
+    <color name="splash_background_gray">#fafafa</color>
+
+    <color name="login_fields_background_color">#F5F6F7</color>
+    <color name="stroke_gray_line">#DFE0E2</color>
+
+    <color name="white">#ffffff</color>
+    <color name="red">#E74C3C</color>
+    <color name="grey">#aaaaaa</color>
+    <color name="dark_grey">#4e4e4e</color>
+    <color name="dark_text">#131313</color>
+    <color name="login_text_field_color">#969798</color>
+    <color name="dni_text_field_color">#4f4f4f</color>
+    <color name="semi_transparent_black">#80000000</color>
+    <color name="login_button_orange">#ffbe76</color>
+    <color name="login_button_green">#00dd61</color>
+    <color name="semi_transparent_login_orange">#80ffbe76</color>
+    <color name="selected_thumb_color">#0076FE</color>
+    <color name="negative_button_grey">#818181</color>
+    <color name="light_grey">#b5b5b5</color>
+    <color name="menu_text">#424343</color>
+    <color name="yellow">#fdf08f</color>
+    <color name="black_text">#d9000000</color>
+    <color name="grey_notes_title">#757575</color>
+    <color name="background_color_card_view">#F2F0F1</color>
+    <color name="toolbar_grey_color">#F5F5F5</color>
+    <color name="dashboard_text_color">#7a7a7a</color>
+    <color name="cancel_button_red">#ff7070</color>
+    <color name="semi_transparent_cancel_red">#80ff7070</color>
+    <color name="semi_transparent_login_fields">#80F5F6F7</color>
+    <color name="text_gray">#a1a1a1</color>
+    <color name="text_gray_order">#565656</color>
+    <color name="text_gray_confirmation">#777777</color>
+    <color name="text_gray_dialog">#222222</color>
+    <color name="button_accept">#00da5f</color>
+
+</resources>
